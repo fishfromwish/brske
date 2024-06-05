@@ -12,7 +12,7 @@
             text-align: center;
         }
         nav {
-            background-color: #333;
+            background-color: #999;
             color: white;
             text-align: center;
             padding: 5px;
@@ -28,17 +28,21 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Rec Room Awards</h1>
     </header>
     <nav>
-        <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a>
+        <a href="index.html">Voting</a>
     </nav>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit">Submit</button>
-    </form>
+    <form action="https://script.google.com/macros/s/AKfycbwE6LqieaEUctA1U8GfUCPdwwDOgzD8xFjZy8dFQKmzRXdonLkBW5HZdE3V9pNJDPjy/exec" method="post">
+    <select id="Room" name="Room">
+  <option value="sopolo">^SopoloTalkshow</option>
+  <option value="backdoor">^TheBackDoor</option>
+  <option value="parable">^TheStanleyParable</option>
+  <option value="blueprints">^Blueprints01</option>
+</select>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
 </body>
 </html>
